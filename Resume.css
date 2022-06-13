@@ -1,0 +1,390 @@
+.container {
+    height: 1142px;
+    width: 793px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 100px 0 rgba(12, 12, 15, 0.2), 0 6px 20px 0 rgba(24, 138, 204, 0.19);
+    border-bottom: 20px solid #ede215;
+    background-color: whitesmoke;
+}
+
+.container1 {
+    height: 170px;
+    position: relative;
+    border-right: 9px solid #ede215;
+    border-bottom: 1px solid grey;
+}
+
+.container2 {
+    display: flex;
+}
+
+.flex-container1 {
+    height: 940px;
+    width: 270px;
+    border-right: 2px solid lightgrey;
+}
+
+.flex-container2 {
+    width: 523px;
+    height: 972px;
+}
+
+#name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-left: 50px;
+    position: absolute;
+    top: 25px;
+}
+
+#surname {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 200px;
+    position: absolute;
+    top: 25px;
+}
+
+#profession {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 53px;
+    position: absolute;
+    top: 90px;
+    background-color: #ede215;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    width: 350px;
+    height: 145px;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-right: 45px;
+    margin-top: 13px;
+}
+
+.contactD {
+    display: flex;
+    width: 350px;
+    height: 25px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.details {
+    font-size: 11px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+
+.skills {
+    height: 30px;
+    width: 265px;
+    margin-top: 20px;
+    border-right: 5px solid #ede215;
+}
+
+.border1 {
+    height: 0px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+}
+
+.skills1 {
+    height: 30px;
+    width: 265px;
+    margin-top: 570px;
+    border-right: 5px solid #ede215;
+}
+
+.border2 {
+    height: 0px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+}
+
+.skills2 {
+    height: 30px;
+    width: 265px;
+    margin-top: 135px;
+    border-right: 5px solid #ede215;
+}
+
+#skillSec {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#progSkills {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+}
+
+.progSkill {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+#webSkills {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+}
+
+.webSkill {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+#frameworks {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+}
+
+.framework {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+#ides {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+}
+
+.ide {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+.otherSkill {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+.softSkill {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+}
+
+.eduContainer {
+    height: 30px;
+    width: 265px;
+    margin-top: 20px;
+    border-left: 5px solid #ede215;
+}
+
+#education {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#engineering {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+    width: 450px;
+}
+
+#college {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+    width: 450px;
+}
+
+#cpi {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #2f3832;
+    width: 450px;
+}
+
+.border3 {
+    height: 0px;
+    width: 450px;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+}
+
+.projectContainer {
+    height: 30px;
+    width: 265px;
+    margin-top: 20px;
+    border-left: 5px solid #ede215;
+}
+
+#projects {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+#projectName {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+    width: 450px;
+}
+
+#projectLink {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.projectDetail {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: grey;
+    width: 450px;
+}
+
+.techStack {
+    font-family: 'Open Sans', sans-serif;
+    color: #2f3832;
+}
+
+.border4 {
+    height: 0px;
+    width: 450px;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+}
+
+.achievementContainer {
+    height: 30px;
+    width: 265px;
+    margin-top: 590px;
+    border-left: 5px solid #ede215;
+}
+
+#achievement {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 255px;
+    font-size: 20px;
+}
+
+#achievementName {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2f3832;
+    width: 450px;
+}
+
+#achievementDetail {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: grey;
+    width: 445px;
+    line-height: 25px;
+}
